@@ -47,7 +47,7 @@ int main(){
     scanf("%d ",&n);
     int a[n];
     for(int i=0;i<n;i++){
-        scanf("%d ",&a[i]);
+        scanf("%d",&a[i]);
         if(a[i]%2==0){
             c++;
         }
@@ -56,7 +56,7 @@ int main(){
         }
     }
     if(c<d){
-        printf("odd")
+        printf("odd");
     }
     else if(c==d){
         printf("-1");
